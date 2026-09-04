@@ -94,6 +94,6 @@ public class Defensa extends Jugador {
                 + "  Barridas exitosas: " + barridasExitosas
                 + "  Distancia recorrida: " + distanciaRecorridaKm + "km"
                 + "  Posicion: " + posicionEspecifica
-                + "  Líbero: " + (esLibero ? "Si" : "No");
+                + "  Libero: " + (esLibero ? "Si" : "No");
     }
 }
