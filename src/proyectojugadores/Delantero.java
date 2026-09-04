@@ -93,9 +93,9 @@ public class Delantero extends Jugador {
     @Override
     public String toString() {
         return "[Delantero] " + super.toString()
-                + " | Goles: " + golesAnotados
-                + " | Prom. goles/partido: " + promedioGolesPorPartido
-                + " | Pie dominante: " + pieDominante
-                + " | Capitán: " + (esCapitan ? "Sí" : "No");
+                + "  Goles: " + golesAnotados
+                + "  Prom. goles/partido: " + promedioGolesPorPartido
+                + "  Pie dominante: " + pieDominante
+                + "  Capitan: " + (esCapitan ? "Si" : "No");
     }
 }

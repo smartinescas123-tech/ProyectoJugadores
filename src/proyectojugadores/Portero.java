@@ -23,7 +23,7 @@ public class Portero extends Jugador {
         super(nombre, edad);
         this.atajadas = atajadas;
         this.porcentajeAtajadasEfectivas = 0.0;
-        this.tipoGuante = "Estándar";
+        this.tipoGuante = "Estandar";
         this.vieneDeCantera = false;
     }
 
@@ -37,7 +37,7 @@ public class Portero extends Jugador {
         super(nombre, edad);
         this.atajadas = atajadas;
         this.porcentajeAtajadasEfectivas = porcentajeAtajadasEfectivas;
-        this.tipoGuante = "Estándar";
+        this.tipoGuante = "Estandar";
         this.vieneDeCantera = false;
     }
 
@@ -92,9 +92,9 @@ public class Portero extends Jugador {
     @Override
     public String toString() {
         return "[Portero] " + super.toString()
-                + " | Atajadas: " + atajadas
-                + " | Efectividad: " + porcentajeAtajadasEfectivas + "%"
-                + " | Guante: " + tipoGuante
-                + " | De cantera: " + (vieneDeCantera ? "Sí" : "No");
+                + "  Atajadas: " + atajadas
+                + "  Efectividad: " + porcentajeAtajadasEfectivas + "%"
+                + "  Guante: " + tipoGuante
+                + "  De cantera: " + (vieneDeCantera ? "Si" : "No");
     }
 }

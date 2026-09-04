@@ -91,9 +91,9 @@ public class Defensa extends Jugador {
     @Override
     public String toString() {
         return "[Defensa] " + super.toString()
-                + " | Barridas exitosas: " + barridasExitosas
-                + " | Distancia recorrida: " + distanciaRecorridaKm + "km"
-                + " | Posicion: " + posicionEspecifica
-                + " | Líbero: " + (esLibero ? "Si" : "No");
+                + "  Barridas exitosas: " + barridasExitosas
+                + "  Distancia recorrida: " + distanciaRecorridaKm + "km"
+                + "  Posicion: " + posicionEspecifica
+                + "  Líbero: " + (esLibero ? "Si" : "No");
     }
 }

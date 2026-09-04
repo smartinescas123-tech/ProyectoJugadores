@@ -50,7 +50,7 @@ public class Principal {
 
         // Se usa el constructor de 4 parámetros porque ya se definió que
         // este defensa jugará como lateral derecho en el sistema táctico.
-        Defensa defensa2 = new Defensa("Nicolas Peña", 27, 55, "Lateral derecho");
+        Defensa defensa2 = new Defensa("Nicolas Pena", 27, 55, "Lateral derecho");
 
         // Se usa el constructor completo porque es el defensa central
         // titular y se conoce toda su ficha física y táctica, incluyendo

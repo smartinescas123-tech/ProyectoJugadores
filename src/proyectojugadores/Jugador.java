@@ -84,6 +84,6 @@ public class Jugador {
         return "Nombre: " + nombre
                 + " | Edad: " + edad
                 + " | Estatura: " + estatura + "m"
-                + " | Titular: " + (esTitular ? "Sí" : "No");
+                + " | Titular: " + (esTitular ? "Si" : "No");
     }
 }
