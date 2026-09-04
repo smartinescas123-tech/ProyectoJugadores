@@ -93,7 +93,7 @@ public class Defensa extends Jugador {
         return "[Defensa] " + super.toString()
                 + " | Barridas exitosas: " + barridasExitosas
                 + " | Distancia recorrida: " + distanciaRecorridaKm + "km"
-                + " | Posición: " + posicionEspecifica
-                + " | Líbero: " + (esLibero ? "Sí" : "No");
+                + " | Posicion: " + posicionEspecifica
+                + " | Líbero: " + (esLibero ? "Si" : "No");
     }
 }

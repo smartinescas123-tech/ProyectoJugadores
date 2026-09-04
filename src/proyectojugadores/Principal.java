@@ -18,7 +18,7 @@ public class Principal {
 
         // Se usa el constructor de 4 parámetros (completo) porque ya se
         // cuenta con la ficha física y de titularidad de este jugador.
-        Jugador jugadorCompleto = new Jugador("Andrés Cabrera", 29, 1.78, true);
+        Jugador jugadorCompleto = new Jugador("Andres Cabrera", 29, 1.78, true);
 
         System.out.println(jugadorSinDatos);
         System.out.println(jugadorCompleto);
@@ -27,7 +27,7 @@ public class Principal {
 
         // Se usa el constructor de 3 parámetros porque solo se conoce
         // el nombre, la edad y los goles anotados en la temporada pasada.
-        Delantero delantero1 = new Delantero("Sebastián Ríos", 22, 15);
+        Delantero delantero1 = new Delantero("Sebastian Rios", 22, 15);
 
         // Se usa el constructor de 4 parámetros porque además del dato
         // goleador ya se sabe con qué pierna define mejor el jugador.
@@ -35,7 +35,7 @@ public class Principal {
 
         // Se usa el constructor completo porque este delantero es titular
         // indiscutido y capitán del equipo, y se tiene toda su ficha.
-        Delantero delantero3 = new Delantero("Julián Mora", 30, 1.82, true,
+        Delantero delantero3 = new Delantero("Julian Mora", 30, 1.82, true,
                 34, 0.9, "Derecho", true);
 
         System.out.println(delantero1);
@@ -50,12 +50,12 @@ public class Principal {
 
         // Se usa el constructor de 4 parámetros porque ya se definió que
         // este defensa jugará como lateral derecho en el sistema táctico.
-        Defensa defensa2 = new Defensa("Nicolás Peña", 27, 55, "Lateral derecho");
+        Defensa defensa2 = new Defensa("Nicolas Peña", 27, 55, "Lateral derecho");
 
         // Se usa el constructor completo porque es el defensa central
         // titular y se conoce toda su ficha física y táctica, incluyendo
         // que además cumple funciones de líbero.
-        Defensa defensa3 = new Defensa("David Gómez", 31, 1.85, true,
+        Defensa defensa3 = new Defensa("David Gomez", 31, 1.85, true,
                 62, 10.4, "Central", true);
 
         System.out.println(defensa1);
@@ -74,7 +74,7 @@ public class Principal {
 
         // Se usa el constructor completo porque es el portero titular del
         // equipo y se cuenta con toda su ficha, incluyendo si es de cantera.
-        Portero portero3 = new Portero("Simón Duarte", 33, 1.90, true,
+        Portero portero3 = new Portero("Simon Duarte", 33, 1.90, true,
                 9, 85.2, "Guante profesional", true);
 
         System.out.println(portero1);
